@@ -1,0 +1,160 @@
+
+        body {
+            font-family: 'Times New Roman', serif;
+            color: #333;
+            background-color: #e0e7f4; 
+            
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #327993, #49a1c1);
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero img {
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in;
+            border: 5px solid white;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .hero h1 {
+            font-size: 4rem;
+            animation: fadeIn 2s ease-in;
+            text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        #about {
+            background-color: #f8f9fa; 
+            padding: 60px 0;
+        }
+        #about h2 {
+            color: #333; 
+        }
+        #about p {
+            color: #555; 
+        }
+
+        .card {
+            border: 1px solid #ddd; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card-body {
+            background-color: #f9f9f9;
+        }
+        .card-title {
+            color: #007bff; 
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+        
+        .projects .card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+        }
+        .projects .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
+        .navbar {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact, .skills {
+            padding: 60px 0;
+            
+            background: linear-gradient(135deg, #ffffff, #e6e6e6);
+            text-align: center;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            display: inline-block;
+            margin: 15px 30px;
+            font-size: 1.3rem;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border-radius: 20px;
+            transition: background 0.5s;
+        }
+        .skills li:hover {
+            background: #0056b3;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+            
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 15px;
+            font-size: 2.5rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease, color 0.3s;
+        }
+        
+        .social-icons a img {
+            width: 40px;
+            height: 40px;
+            margin-left: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+        
+        /* GitHub Icon */
+        .social-icons a[href*="github.com"] i {
+            color: #333;
+        }
+        
+        
+        
+        /* LinkedIn Icon */
+        .social-icons a[href*="linkedin.com"] i {
+            color: #0077b5;
+        }
+        
+        
+
+        .resume-btn {
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+        
+
+        
+    
